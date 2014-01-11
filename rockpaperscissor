@@ -22,13 +22,13 @@
 var X = 0;
 function myFunction()
 {
-//you need three different images and shound name them 1 2 and 3 and have it in a images folder
+//you need three different images and shound name them 1 2 and 3 and have it in a Images folder
 	var num=Math.floor(1 + Math.random()*3);
 	var link = document.getElementById("items"); //gets the image tags id and puts it 
-	link.setAttribute("src", "Images/" + num + ".jpg"); //every time the 
+	link.setAttribute("src", "Images/" + num + ".jpg"); //every time the button is clicked
 	var num2=Math.floor(1 + Math.random()*3);
 	var link = document.getElementById("itemss"); //gets the image tags id and puts it 
-	link.setAttribute("src", "Images/" + num2 + ".jpg"); //every time the 
+	link.setAttribute("src", "Images/" + num2 + ".jpg"); //every time the button is clicked
 	outcome(num,num2);
 }
 
