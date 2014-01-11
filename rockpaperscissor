@@ -6,9 +6,10 @@
 <body>
 <center>
 <div id="gamebrd">
-<img id="items" src="Images/me.jpg" Alt="Image"/>
+<!--need to have this so that the images display-->
+<img id="items" src"" Alt="Image"/>
 &nbsp;&nbsp;&nbsp;&nbsp;
-<img id="itemss" src="Images/you.jpg" Alt="Image"/>
+<img id="itemss" src="" Alt="Image"/>
 </div>
 <div class="buttons">
 <button onclick="myFunction()">Play</button>
@@ -16,10 +17,12 @@
 </div>
 </center>
 
+
 <script>
 var X = 0;
 function myFunction()
 {
+//you need three different images and shound name them 1 2 and 3 and have it in a images folder
 	var num=Math.floor(1 + Math.random()*3);
 	var link = document.getElementById("items"); //gets the image tags id and puts it 
 	link.setAttribute("src", "Images/" + num + ".jpg"); //every time the 
